@@ -47,8 +47,33 @@ pip install .
 ## PDF2Markdown
 To convert PDF to markdown, follow instructions at https://github.com/datalab-to/marker.git
 
+To convert multiple files at once: 
+marker /path/to/input/folder
+
+To convert multiple files on multiple GPUs: 
+NUM_DEVICES=4 NUM_WORKERS=15 marker_chunk_convert ../pdf_in ../md_out
+
 ## Generating Hypergraph and Hypergraph Embeddings from Markdown Files
-Convert make_hypergraph.ipynb file to .py file and run job script. 
+
+Convert the Jupyter notebook to a Python script:
+```bash
+jupyter nbconvert --to script make_hypergraph.ipynb
+```
+This will create 
+
+```bash
+make_hypergraph.py
+```
+
+Run the generated script: 
+```bash
+make_hypergraph.py
+```
+(optional) Submit the job script (e.g., SLURM):
+
+```bash
+sbatch run_make_hypergraph.sh
+```
 
 ## Run Hypergraph Agents 
 Run agents.ipynb
