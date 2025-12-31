@@ -44,6 +44,18 @@ cd HyperGraphReasoning
 pip install .
 ```
 
+## PDF2Markdown
+To convert PDF to markdown, follow instructions at https://github.com/datalab-to/marker.git
+
+## Generating Hypergraph and Hypergraph Embeddings from Markdown Files
+Convert make_hypergraph.ipynb file to .py file and run job script. 
+
+## Run Hypergraph Agents 
+Run agents.ipynb
+
+## Analyze Hypergraph
+Run analyze_hypergraph.ipynb
+
 ## Citation
 
 Please cite this work as:
