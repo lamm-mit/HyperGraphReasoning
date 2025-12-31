@@ -34,6 +34,7 @@ You can skip this step if you’re using API-based LLMs.
 CMAKE_ARGS="-DGGML_CUDA=on -DLLAVA_BUILD=on" FORCE_CMAKE=1 pip install git+https://github.com/abetlen/llama-cpp-python@v0.3.8 --verbose
 ```
 
+
 ## 4) Install HyperGraphReasoning package
 Clone the repository and proceed with the direct installation.
 ```
@@ -86,13 +87,15 @@ python make_hypergraph.py
 sbatch run_make_hypergraph.sh
 ```
 
+'make_hypergraph.ipynb' includes code that  
+
 ***
 
 ## Run Hypergraph Agents 
 
 Open and run the following notebook in **JupyterLab**:
 ```bash
-agents.ipynb
+Agents.ipynb
 ```
 The agents use: 
 
@@ -104,6 +107,9 @@ Generated hypergraph with all metadata can be found in
 
 Generated hypergraph embeddings can be found in
 `Notebooks/SG/GRAPHDATA_paper/composite_LLAMA4_70b.pkl`
+
+
+'Agents.ipynb' stored in '/Notebooks/SG/Agents.ipynb' includes code for locally hosted LLM model 'meta-llama/Llama-3.3-70B-Instruct' as explained in our Methods, with our embedding model 'nomic-ai/nomic-embed-text-v1.5', loaded locally using the 'SentenceTransformers' library.
 
 ***
 
