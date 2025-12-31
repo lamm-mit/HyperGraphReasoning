@@ -102,8 +102,6 @@ Generated hypergraph embeddings can be found in
 
 While any model can be used, 'Agents.ipynb' supports the approach described in our Methods section by using the locally hosted LLM model 'meta-llama/Llama-3.3-70B-Instruct' for inference. Our embedding model 'nomic-ai/nomic-embed-text-v1.5' is also loaded locally using the 'SentenceTransformers' library.
 
-***
-
 ## 4) Analyze Hypergraph
 Open and run the following notebook in **JupyterLab**:
 ```bash
