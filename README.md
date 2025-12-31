@@ -3,6 +3,15 @@ Corresponding author: mbuehler@MIT.EDU
 
 #### LAMM, Massachusetts Institute of Technology
 
+## Summary
+
+Modern scientific inquiry increasingly demands systems-level reasoning that unifies heterogeneous data with mechanistic understanding. Although large language models benefit from structured knowledge representations, conventional pairwise knowledge graphs are ill-suited to represent the complex, higher-order relationships common in scientific domains. In this work, we present a hypergraph-based framework for constructing knowledge representations from large-scale scientific text corpora, allowing explicit modeling of multi-entity interactions. Applied to a corpus on biocomposite scaffolds, hypergraph analysis uncovers a scale-free knowledge architecture characterized by highly connected conceptual hubs, while elucidating co-occurring concepts and their interdependencies. We further enable agentic reasoning by equipping LLM-based agents with the ability to traverse the hypergraph, demonstrating that this knowledge substrate grounds reasoning and facilitates mechanistic inference for hypothesis generation. Overall, our findings highlight the potential of hypergraph-based knowledge structures to enhance downstream scientific discovery from large and complex datasets.
+
+Our contributions are:
+1. A method for constructing hypergraphs from large-scale scientific text.
+2. Techniques for analyzing hypergraphs derived from scientific corpora.
+3. Agentic reasoning tools that operate over hypergraph representations.
+
 
 ## Getting Started
 
