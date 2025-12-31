@@ -50,7 +50,7 @@ pip install .
 ***
 # Generating a Hypergraph
 
-## PDF2Markdown
+## 1) PDF2Markdown
 To convert PDF to markdown, follow instructions for creating environment at https://github.com/datalab-to/marker.git
 
 ```bash
@@ -91,7 +91,7 @@ While any model can be used, 'make_hypergraph.ipynb' supports the approach descr
 
 ***
 
-## Run Hypergraph Agents 
+## 2) Run Hypergraph Agents 
 
 Open and run the following notebook in **JupyterLab**:
 ```bash
@@ -112,7 +112,7 @@ While any model can be used, 'Agents.ipynb' supports the approach described in o
 
 ***
 
-## Analyze Hypergraph
+## 3) Analyze Hypergraph
 
 Open and run the following notebook in **JupyterLab**:
 ```bash
