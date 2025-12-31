@@ -65,7 +65,7 @@ To convert multiple files on multiple GPUs:
 ```bash
 NUM_DEVICES=4 NUM_WORKERS=15 marker_chunk_convert ../pdf_in ../md_out
 ```
-## Generating Hypergraph and Hypergraph Embeddings from Markdown Files
+## 2) Generating Hypergraph and Hypergraph Embeddings from Markdown Files
 
 Convert the Jupyter notebook to a Python script:
 ```bash
@@ -91,7 +91,7 @@ While any model can be used, 'make_hypergraph.ipynb' supports the approach descr
 
 ***
 
-## 2) Run Hypergraph Agents 
+## 3) Run Hypergraph Agents 
 
 Open and run the following notebook in **JupyterLab**:
 ```bash
@@ -112,7 +112,7 @@ While any model can be used, 'Agents.ipynb' supports the approach described in o
 
 ***
 
-## 3) Analyze Hypergraph
+## 4) Analyze Hypergraph
 
 Open and run the following notebook in **JupyterLab**:
 ```bash
