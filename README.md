@@ -87,7 +87,6 @@ While any model can be used, 'make_hypergraph.ipynb' supports the approach descr
 ***
 
 ## 3) Run Hypergraph Agents 
-
 Open and run the following notebook in **JupyterLab**:
 ```bash
 Agents.ipynb
@@ -108,7 +107,6 @@ While any model can be used, 'Agents.ipynb' supports the approach described in o
 ***
 
 ## 4) Analyze Hypergraph
-
 Open and run the following notebook in **JupyterLab**:
 ```bash
 analyze_hypergraph.ipynb
