@@ -38,6 +38,3 @@
 ehthumbs.db
 Thumbs.db
 
-# Large generated graph data (do not commit)
-Notebooks/SG/GRAPHDATA_OUTPUT_paper/
-Notebooks/SG/GRAPHDATA_paper/
