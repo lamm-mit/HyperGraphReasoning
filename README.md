@@ -45,7 +45,11 @@ pip install .
 ```
 
 ## PDF2Markdown
-To convert PDF to markdown, follow instructions at https://github.com/datalab-to/marker.git
+To convert PDF to markdown, follow instructions for creating environment at https://github.com/datalab-to/marker.git
+
+```bash
+conda activate marker
+```
 
 To convert multiple files at once: 
 marker /path/to/input/folder
@@ -75,17 +79,24 @@ python make_hypergraph.py
 sbatch run_make_hypergraph.sh
 ```
 
+***
+
 ## Run Hypergraph Agents 
 
+Open and run the following notebook in **JupyterLab**:
 ```bash
 agents.ipynb
 ```
 
 ## Analyze Hypergraph
 
+Open and run the following notebook in **JupyterLab**:
 ```bash
 analyze_hypergraph.ipynb
 ```
+
+***
+
 
 ## Citation
 
