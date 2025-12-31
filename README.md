@@ -57,11 +57,13 @@ conda activate marker
 ```
 
 To convert multiple files at once: 
+```bash
 marker /path/to/input/folder
-
+```
 To convert multiple files on multiple GPUs: 
+```bash
 NUM_DEVICES=4 NUM_WORKERS=15 marker_chunk_convert ../pdf_in ../md_out
-
+```
 ## Generating Hypergraph and Hypergraph Embeddings from Markdown Files
 
 Convert the Jupyter notebook to a Python script:
