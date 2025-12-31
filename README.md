@@ -44,6 +44,12 @@ cd HyperGraphReasoning
 pip install .
 ```
 
+***
+
+***
+
+
+
 ## PDF2Markdown
 To convert PDF to markdown, follow instructions for creating environment at https://github.com/datalab-to/marker.git
 
@@ -87,6 +93,7 @@ Open and run the following notebook in **JupyterLab**:
 ```bash
 agents.ipynb
 ```
+***
 
 ## Analyze Hypergraph
 
