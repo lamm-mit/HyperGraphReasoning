@@ -37,8 +37,8 @@ CMAKE_ARGS="-DGGML_CUDA=on -DLLAVA_BUILD=on" FORCE_CMAKE=1 pip install git+https
 ## 4) Install GraphReasoning package
 Clone the repository and proceed with the direct installation.
 ```
-git clone https://github.com/lamm-mit/hypergraphreasoning.git
-cd hypergraphreasoning
+git clone https://github.com/lamm-mit/HyperGraphReasoning.git
+cd HyperGraphReasoning
 pip install .
 ```
 
