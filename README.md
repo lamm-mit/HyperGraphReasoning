@@ -87,7 +87,7 @@ python make_hypergraph.py
 sbatch run_make_hypergraph.sh
 ```
 
-'make_hypergraph.ipynb' includes code that  
+While any model can be used, 'make_hypergraph.ipynb' supports the approach described in our Methods section by using the Together API to provide hosted LLM inference with 'meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8' for graph generation.
 
 ***
 
@@ -108,8 +108,7 @@ Generated hypergraph with all metadata can be found in
 Generated hypergraph embeddings can be found in
 `Notebooks/SG/GRAPHDATA_paper/composite_LLAMA4_70b.pkl`
 
-
-'Agents.ipynb' stored in '/Notebooks/SG/Agents.ipynb' includes code for locally hosted LLM model 'meta-llama/Llama-3.3-70B-Instruct' as explained in our Methods, with our embedding model 'nomic-ai/nomic-embed-text-v1.5', loaded locally using the 'SentenceTransformers' library.
+While any model can be used, 'Agents.ipynb' supports the approach described in our Methods section by using the locally hosted LLM model 'meta-llama/Llama-3.3-70B-Instruct' for inference. Our embedding model 'nomic-ai/nomic-embed-text-v1.5' is also loaded locally using the 'SentenceTransformers' library.
 
 ***
 
