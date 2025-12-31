@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: GraphReasoning
+Version: 0.3.0
+Summary: GraphReasoning: Use LLM to reason over graphs, combined with multi-agent modeling.
+Home-page: https://github.com/lamm-mit/GraphReasoning
+Author: Markus J. Buehler, Yu-Chuan Hsu
+Author-email: mbuehler@mit.edu, mkychsu@mit.edu
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: transformers
+Requires-Dist: powerlaw
+Requires-Dist: markdown2
+Requires-Dist: pdfkit
+Requires-Dist: bitsandbytes
+Requires-Dist: peft
+Requires-Dist: accelerate
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: huggingface_hub
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: openai
+Requires-Dist: pyvis
+Requires-Dist: yachalk
+Requires-Dist: pytesseract
+Requires-Dist: llama-index-embeddings-huggingface
+Requires-Dist: tqdm
+Requires-Dist: ipython
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: uuid
+Requires-Dist: pdfminer.six
+Requires-Dist: python-louvain
+Requires-Dist: wkhtmltopdf
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Using LLMs and Knowledge graphs to search for PFAS Alternatives
+
+## Project with Saint Gobain
+
+#### Yu-Chuan (Michael) Hsu, Isabella Stewart, Tarjei Hage, Wei Lu, and Markus J. Buehler, MIT, 2025 
+mkychsu@MIT.EDU, istewart@MIT.EDU, tphage@MIT.EDU, wl7@MIT.EDU, mbuehler@MIT.EDU
+#### LAMM, Massachusetts Institute of Technology
+
+1. Load modules
+2. Install cuda toolkit with the commands below.
+3. Install llama-cpp-python
+4. Install graphreasoning package
+
+## Environment:
+
+```
+conda create -n LLM python=3.11 -y
+conda activate LLM
+conda install -c "nvidia/label/cuda-12.6.0" cuda-toolkit cuda-nvcc -y --copy
+CMAKE_ARGS="-DGGML_CUDA=on -DLLAVA_BUILD=on" FORCE_CMAKE=1 pip install git+https://github.com/abetlen/llama-cpp-python@v0.3.8 --verbose
+```
+
+## Installation
+
+After git clone, install directly:
+```
+pip install .
+```
+ 
