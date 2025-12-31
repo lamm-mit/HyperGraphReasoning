@@ -67,7 +67,7 @@ make_hypergraph.py
 
 Run the generated script: 
 ```bash
-make_hypergraph.py
+python make_hypergraph.py
 ```
 (optional) Submit the job script (e.g., SLURM):
 
@@ -76,10 +76,16 @@ sbatch run_make_hypergraph.sh
 ```
 
 ## Run Hypergraph Agents 
-Run agents.ipynb
+
+```bash
+agents.ipynb
+```
 
 ## Analyze Hypergraph
-Run analyze_hypergraph.ipynb
+
+```bash
+analyze_hypergraph.ipynb
+```
 
 ## Citation
 
