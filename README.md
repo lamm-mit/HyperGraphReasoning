@@ -11,6 +11,8 @@ Corresponding author: mbuehler@MIT.EDU
 3. Install llama-cpp-python
 4. Install GraphReasoning package
 
+![Project Logo](agents.png)
+
 ## 1) Instantiate Environment Configuration:
 
 ```
