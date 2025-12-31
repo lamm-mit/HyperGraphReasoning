@@ -11,8 +11,6 @@ Corresponding author: mbuehler@MIT.EDU
 3. Install llama-cpp-python
 4. Install GraphReasoning package
 
-![Project Logo](agents.png)
-
 ## 1) Instantiate Environment Configuration:
 
 ```
@@ -46,10 +44,10 @@ pip install .
 
 ***
 
+![Project Logo](agents.png)
+
 ***
-
-## Generate Hypergraph from Document Corpus 
-
+# Generating a Hypergraph
 
 ## PDF2Markdown
 To convert PDF to markdown, follow instructions for creating environment at https://github.com/datalab-to/marker.git
