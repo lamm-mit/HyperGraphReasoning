@@ -59,6 +59,8 @@ See requirements.txt for the full list of packages seen in the approach describe
 ## 1) PDF2Markdown
 To convert PDF to markdown, follow instructions for creating environment at https://github.com/datalab-to/marker.git
 
+It's best to make a clean environment for marker separate from our LLM_hypergraphreasoning environment. 
+
 ```bash
 conda activate marker
 ```
