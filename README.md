@@ -92,6 +92,8 @@ Open and run the following notebook in **JupyterLab**:
 ```bash
 agents.ipynb
 ```
+The agents use: 
+
 Generated hypergraph (compatible with HYPERNETX) can be found in
 `Notebooks/SG/GRAPHDATA_OUTPUT_paper/final_graph.pkl`
 
@@ -109,6 +111,10 @@ Open and run the following notebook in **JupyterLab**:
 ```bash
 analyze_hypergraph.ipynb
 ```
+
+The analysis uses: 
+Generated hypergraph (compatible with HYPERNETX) can be found in
+`Notebooks/SG/GRAPHDATA_OUTPUT_paper/final_graph.pkl`
 
 ***
 
