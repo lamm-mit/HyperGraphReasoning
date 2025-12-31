@@ -92,9 +92,14 @@ Open and run the following notebook in **JupyterLab**:
 ```bash
 agents.ipynb
 ```
-Generated hypergraph (compatible with HYPERNETX) can be found in /Notebooks/SG/GRAPHDATA_OUTPUT_paper/final_graph.pkl 
-Generated hypergraph with all metadata can be found in /Notebooks/SG/GRAPHDATA_OUTPUT_paper/updated_sub_dfs.pkl
-Generated hypergraph embeddings can be found in /Notebooks/SG/GRAPHDATA_paper/composite_LLAMA4_70b.pkl
+Generated hypergraph (compatible with HYPERNETX) can be found in
+`Notebooks/SG/GRAPHDATA_OUTPUT_paper/final_graph.pkl`
+
+Generated hypergraph with all metadata can be found in
+`Notebooks/SG/GRAPHDATA_OUTPUT_paper/updated_sub_dfs.pkl`
+
+Generated hypergraph embeddings can be found in
+`Notebooks/SG/GRAPHDATA_paper/composite_LLAMA4_70b.pkl`
 
 ***
 
