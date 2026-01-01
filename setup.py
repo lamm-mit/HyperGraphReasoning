@@ -47,10 +47,10 @@ setup(
         'nbformat',
         'nbconvert',
     ],
-    description='GraphReasoning: Use LLM to reason over graphs, combined with multi-agent modeling.',
+    description='HypergraphReasoning packages: Use LLM to reason over hypergraphs, combined with multi-agent modeling.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/lamm-mit/GraphReasoning',
+    url='https://github.com/lamm-mit/HyperGraphReasoning',
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.10'
