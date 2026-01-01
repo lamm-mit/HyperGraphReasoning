@@ -97,6 +97,8 @@ sbatch run_make_hypergraph.sh
 
 While any model can be used, 'make_hypergraph.ipynb' supports the approach described in our Methods section by using the Together API to provide hosted LLM inference with 'meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8' for graph generation.
 
+Final Composite Paper List.xlsx contains the list of papers that were used in this study. We do not provide the full text PDFs nor the markdown files in this repository. 
+
 ## 3) Run Hypergraph Agents 
 Open and run the following notebook in **JupyterLab**:
 ```bash
