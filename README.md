@@ -132,6 +132,10 @@ Generated hypergraph (compatible with HYPERNETX) can be found in
 
 ***
 
+## Supplementary Output 
+
+Full text output from the agents as seen in the Results section of the manuscript can be found in `Notebooks/SG/Experiments`
+
 
 ## Citation
 
