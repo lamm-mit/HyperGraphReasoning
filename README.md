@@ -73,6 +73,10 @@ To convert multiple files on multiple GPUs:
 ```bash
 NUM_DEVICES=4 NUM_WORKERS=15 marker_chunk_convert ../pdf_in ../md_out
 ```
+
+Final Composite Paper List.xlsx contains the list of papers from the corpus on 'biocomposite scaffold' that were used in this study. We do not provide the full text PDFs nor the markdown files in this repository. 
+
+
 ## 2) Generating Hypergraph and Hypergraph Embeddings from Markdown Files
 
 Convert the Jupyter notebook to a Python script:
@@ -97,7 +101,6 @@ sbatch run_make_hypergraph.sh
 
 While any model can be used, 'make_hypergraph.ipynb' supports the approach described in our Methods section by using the Together API to provide hosted LLM inference with 'meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8' for graph generation.
 
-Final Composite Paper List.xlsx contains the list of papers that were used in this study. We do not provide the full text PDFs nor the markdown files in this repository. 
 
 ## 3) Run Hypergraph Agents 
 Open and run the following notebook in **JupyterLab**:
