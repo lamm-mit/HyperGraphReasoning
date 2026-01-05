@@ -47,7 +47,7 @@ cd HyperGraphReasoning
 pip install .
 ```
 
-See requirements.txt for the full list of packages seen in the approach described in our Methods section (install packages as necessary) 
+See requirements.txt for the full list of packages seen in the approach described in our Methods section.
 
 ***
 
