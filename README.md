@@ -136,7 +136,7 @@ The analysis uses:
 Generated hypergraph (compatible with HYPERNETX) can be found in
 `Notebooks/SG/GRAPHDATA_OUTPUT_paper/final_graph.pkl`
 
-The graph and embedding data can also be downloaded as a Hugging Face 🤗 dataset at: `lamm-mit/HyperGraphReasoning`.
+The graph and embedding data can also be downloaded as a Hugging Face 🤗 dataset at: (lamm-mit/HyperGraphReasoning)[https://huggingface.co/datasets/lamm-mit/HyperGraphReasoning].
 
 ***
 
