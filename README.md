@@ -130,12 +130,13 @@ The analysis uses:
 Generated hypergraph (compatible with HYPERNETX) can be found in
 `Notebooks/SG/GRAPHDATA_OUTPUT_paper/final_graph.pkl`
 
+The graph and embedding data can also be downloaded as a Hugging Face dataset at: `lamm-mit/HyperGraphReasoning`.
+
 ***
 
 ## Supplementary Output 
 
 Full text output from the agents as seen in the Results section of the manuscript can be found in `Notebooks/SG/Experiments`
-
 
 ## Citation
 
@@ -143,10 +144,9 @@ Please cite this work as:
 
 ```bibtex
 @article{stewart2025hypergraphreasoning,
-  title     = {HIGHER-ORDER KNOWLEDGE REPRESENTATIONS FOR AGENTIC
-SCIENTIFIC REASONING},
-  author    = {x},
-  journal   = {x},
+  title     = {Higher-Order Knowledge Representations for Agentic Scientific Reasoning},
+  author    = {I.A. Stewart and M.J. Buehler},
+  journal   = {arXiv},
   year      = {2025},
   doi       = {x}
 }
