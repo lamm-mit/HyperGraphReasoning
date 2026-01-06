@@ -4,7 +4,7 @@
 #### Isabella Stewart, Markus J. Buehler, MIT, 2025 
 Corresponding author: mbuehler@MIT.EDU
 
-#### LAMM, Massachusetts Institute of Technology
+#### Laboratory for Atomistic and Molecular Mechanics (LAMM), Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA
 
 ## Summary
 
