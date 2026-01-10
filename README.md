@@ -1,7 +1,7 @@
 # Higher-Order Knowledge Representations for Agentic Scientific Reasoning
 
 
-#### Isabella Stewart, Markus J. Buehler, MIT, 2025 
+#### Isabella Stewart, Markus J. Buehler, MIT, 2026 
 Corresponding author: mbuehler@MIT.EDU
 
 #### Laboratory for Atomistic and Molecular Mechanics (LAMM), Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA
@@ -149,10 +149,10 @@ Full text output from the agents as seen in the Results section of the manuscrip
 Please cite this work as:
 
 ```bibtex
-@article{stewart2025hypergraphreasoning,
+@article{stewartbuehler2025hypergraphreasoning,
   title     = {Higher-Order Knowledge Representations for Agentic Scientific Reasoning},
   author    = {I.A. Stewart and M.J. Buehler},
   journal   = {arXiv},
-  year      = {2025},
-  doi       = {x}
+  year      = {2026},
+  doi       = {https://arxiv.org/abs/2601.04878}
 }
